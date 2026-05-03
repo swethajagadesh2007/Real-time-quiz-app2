@@ -1,0 +1,21 @@
+{
+  "name": "real-time-quiz-application",
+  "version": "1.0.0",
+  "description": "Web-based real-time quiz application with admin quiz creation, participant links, QR codes, timers, and leaderboards.",
+  "main": "server.js",
+  "engines": {
+    "node": ">=20 <25"
+  },
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2",
+    "qrcode": "^1.5.4",
+    "socket.io": "^4.7.5"
+  },
+  "devDependencies": {
+    "socket.io-client": "^4.8.3"
+  }
+}
